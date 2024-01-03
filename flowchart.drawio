@@ -1,0 +1,156 @@
+<mxfile host="app.diagrams.net" modified="2023-12-31T16:36:50.532Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="3Qiv4jnUrCbRPvlY1usT" version="22.1.16" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="954" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="pYhyUGUrdisGppeW0D_v-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pYhyUGUrdisGppeW0D_v-0" target="pYhyUGUrdisGppeW0D_v-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pYhyUGUrdisGppeW0D_v-0" value="Start" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="230" y="30" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pYhyUGUrdisGppeW0D_v-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pYhyUGUrdisGppeW0D_v-1" target="pYhyUGUrdisGppeW0D_v-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pYhyUGUrdisGppeW0D_v-1" value="抓ETABS&lt;br&gt;存變數" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="235" y="150" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pYhyUGUrdisGppeW0D_v-3" value="抓E2K資料 : &lt;br&gt;&lt;ul&gt;&lt;li&gt;point coordinates&lt;/li&gt;&lt;li&gt;line connectivity&lt;/li&gt;&lt;li&gt;slab connectivity&lt;/li&gt;&lt;li&gt;sectional definition&lt;/li&gt;&lt;li&gt;line assignments&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="370" y="150" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="pYhyUGUrdisGppeW0D_v-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pYhyUGUrdisGppeW0D_v-4" target="pYhyUGUrdisGppeW0D_v-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pYhyUGUrdisGppeW0D_v-4" value="輸入" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="235" y="90" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pYhyUGUrdisGppeW0D_v-8" value="Inputs :&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;目標樓層 tstory&lt;/li&gt;&lt;li&gt;e2k檔名 e2k = None&lt;/li&gt;&lt;li&gt;欲轉角度 ra = 0&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="370" y="65" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pYhyUGUrdisGppeW0D_v-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pYhyUGUrdisGppeW0D_v-9" target="pYhyUGUrdisGppeW0D_v-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pYhyUGUrdisGppeW0D_v-9" value="計算往內半梁寬" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="235" y="290" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pYhyUGUrdisGppeW0D_v-11" value="pts = { pt : [x, y, z] }&lt;br&gt;line_conn = { line : [pt1, pt2] }&lt;br&gt;slab_conn = { slab : [pt1, pt2,... ] }&lt;br&gt;sect_def = { line : { width : b, depth : h } }&lt;br&gt;line_assign = { line : { sect : section } }" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="540" y="160" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="pYhyUGUrdisGppeW0D_v-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pYhyUGUrdisGppeW0D_v-12" target="pYhyUGUrdisGppeW0D_v-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pYhyUGUrdisGppeW0D_v-12" value="解各線交點" style="whiteSpace=wrap;html=1;rounded=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="235" y="400" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pYhyUGUrdisGppeW0D_v-14" value="用sympy解聯立方程式&lt;br&gt;建立線段方程式與兩端點座標" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="370" y="395" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pYhyUGUrdisGppeW0D_v-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pYhyUGUrdisGppeW0D_v-27" target="pYhyUGUrdisGppeW0D_v-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="525" />
+              <mxPoint x="120" y="305" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pYhyUGUrdisGppeW0D_v-81" value="算完X向後&lt;br&gt;把坐標轉-90度計算Y向strip&lt;br&gt;算完後再轉90度回來" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="pYhyUGUrdisGppeW0D_v-80" vertex="1" connectable="0">
+          <mxGeometry x="0.1162" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pYhyUGUrdisGppeW0D_v-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pYhyUGUrdisGppeW0D_v-27" target="pYhyUGUrdisGppeW0D_v-83" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pYhyUGUrdisGppeW0D_v-27" value="交點X座標排序&lt;br&gt;解各strip兩點及範圍" style="whiteSpace=wrap;html=1;rounded=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="235" y="495" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pYhyUGUrdisGppeW0D_v-29" value="" style="group" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1" connectable="0">
+          <mxGeometry x="580" y="265" width="188" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="pYhyUGUrdisGppeW0D_v-16" value="" style="endArrow=none;html=1;rounded=0;" parent="pYhyUGUrdisGppeW0D_v-29" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="120" as="sourcePoint" />
+            <mxPoint x="30" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pYhyUGUrdisGppeW0D_v-17" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=8 8;" parent="pYhyUGUrdisGppeW0D_v-29" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="90" as="sourcePoint" />
+            <mxPoint y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pYhyUGUrdisGppeW0D_v-18" value="" style="endArrow=none;html=1;rounded=0;" parent="pYhyUGUrdisGppeW0D_v-29" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="90" as="sourcePoint" />
+            <mxPoint x="111" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pYhyUGUrdisGppeW0D_v-20" value="theta2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="pYhyUGUrdisGppeW0D_v-29" vertex="1">
+          <mxGeometry x="47" y="55" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pYhyUGUrdisGppeW0D_v-21" value="dy=b/2*cos(theta1)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="pYhyUGUrdisGppeW0D_v-29" vertex="1">
+          <mxGeometry x="120" y="55" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pYhyUGUrdisGppeW0D_v-22" value="" style="endArrow=none;html=1;rounded=0;" parent="pYhyUGUrdisGppeW0D_v-29" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="111" y="60" as="sourcePoint" />
+            <mxPoint x="111" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pYhyUGUrdisGppeW0D_v-24" value="theta" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="pYhyUGUrdisGppeW0D_v-29" vertex="1">
+          <mxGeometry x="50" y="30" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pYhyUGUrdisGppeW0D_v-26" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" parent="pYhyUGUrdisGppeW0D_v-29" target="pYhyUGUrdisGppeW0D_v-24" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="107" y="73" as="sourcePoint" />
+            <mxPoint x="183" y="-20" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="140" y="40" />
+              <mxPoint x="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pYhyUGUrdisGppeW0D_v-68" value="" style="endArrow=none;html=1;rounded=0;" parent="pYhyUGUrdisGppeW0D_v-29" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="69.5" y="120" as="sourcePoint" />
+            <mxPoint x="90.5" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pYhyUGUrdisGppeW0D_v-69" value="" style="endArrow=none;html=1;rounded=0;" parent="pYhyUGUrdisGppeW0D_v-29" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="90" as="sourcePoint" />
+            <mxPoint x="70" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pYhyUGUrdisGppeW0D_v-67" value="dy=b/2*cos(theta2)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="pYhyUGUrdisGppeW0D_v-29" vertex="1">
+          <mxGeometry x="-38" y="91" width="113" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pYhyUGUrdisGppeW0D_v-77" value="" style="endArrow=none;html=1;rounded=1;curved=0;" parent="pYhyUGUrdisGppeW0D_v-29" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="90" as="sourcePoint" />
+            <mxPoint x="81" y="85" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="95" y="78" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pYhyUGUrdisGppeW0D_v-75" value="" style="endArrow=none;html=1;rounded=1;curved=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="693" y="366" as="sourcePoint" />
+            <mxPoint x="697" y="355" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="698" y="362" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pYhyUGUrdisGppeW0D_v-78" value="從小到大排序，兩端用三角形strip，中間用梯形strip&lt;br&gt;N點有N-1個strip&lt;br&gt;若兩點的X座標相同，不用strip" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="370" y="490" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pYhyUGUrdisGppeW0D_v-83" value="輸出strip資料" style="whiteSpace=wrap;html=1;rounded=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="235" y="635" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
